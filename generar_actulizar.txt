@@ -1,0 +1,2 @@
+C:\Users\JUAN JAIR VILLALOBOS\Desktop\PROGRAMAS_PYTHON_2019\Guy_Python>pyuic5 -x Guycondensadora.ui -o Guycondensadora.ui.py
+
