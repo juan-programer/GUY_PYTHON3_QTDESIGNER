@@ -28,7 +28,7 @@ class calculo_caballo_de_fuerza():
         def calcular(self, largo, numero_codo):
                 op1 = ((largo)*(numero_codo)*(2))
                 op2 = (op1 / 15)
-                if(largo < 1 or numero_codo < 1):
+                if(largo < .0 or numero_codo < 1):
                         return "Calculo Fallido"
                 elif(largo):
                         return str(op2)
