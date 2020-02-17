@@ -10,53 +10,71 @@
     <height>365</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>503</width>
+    <height>365</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>503</width>
+    <height>365</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>CONDESADORA 1.0</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">rgba:(0, 255, 127)</string>
   </property>
   <widget class="QLabel" name="label_numero1">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>50</y>
-     <width>241</width>
+     <y>80</y>
+     <width>261</width>
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">rgba:(255, 255, 127)</string>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;INGRESE LA LONGITUD DE LA CONDENSADORA:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;INGRESE LA LONGITUD DE LA CONDENSADORA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_numero2">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>120</y>
-     <width>311</width>
+     <y>150</y>
+     <width>321</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;INGRESE LA CANTIDAD DE CODOS DE LA CONDENSADORA:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;INGRESE LA CANTIDAD DE CODOS DE LA CONDENSADORA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_salida">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>210</y>
+     <x>120</x>
+     <y>240</y>
      <width>311</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
-    <string>LOS CABALLOS DE POTENCIA SON:</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;LOS CABALLOS DE POTENCIA SON:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="text_numerocodos">
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>150</y>
+     <y>180</y>
      <width>301</width>
      <height>31</height>
     </rect>
@@ -66,7 +84,7 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>80</y>
+     <y>110</y>
      <width>301</width>
      <height>31</height>
     </rect>
@@ -76,13 +94,13 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>200</y>
+     <y>230</y>
      <width>81</width>
      <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">rgba:(255, 255, 127)</string>
    </property>
    <property name="text">
     <string>CALCULAR</string>
@@ -130,10 +148,23 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true"/>
+    <string notr="true">rgba:(255, 255, 255)</string>
    </property>
    <property name="text">
     <string>SALIR</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>0</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#00aaff; vertical-align:sub;&quot;&gt;CONDESOFT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
@@ -166,8 +197,8 @@
      <y>322</y>
     </hint>
     <hint type="destinationlabel">
-     <x>302</x>
-     <y>221</y>
+     <x>292</x>
+     <y>251</y>
     </hint>
    </hints>
   </connection>
