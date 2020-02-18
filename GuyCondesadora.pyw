@@ -14,7 +14,7 @@ class Ventana_principal(QWidget):
                 self.ui.setupUi(self)
                 self.ui.boton_calcular.clicked.connect(self.calcular)
 
-                Img = QImage('radiator.png')
+                Img = QImage('i1.jpg')
                 sImg = Img.scaled(QSize(503,365))
                 palete = QPalette()
                 palete.setBrush(10, QBrush(sImg))
@@ -32,18 +32,18 @@ class Ventana_principal(QWidget):
                         self.ui.text_numerocodos.setText("")
                         self.ui.label_salida.setText("DEBE INGRESAR NUMEROS")
                         #self.ui.boton_calcular.clicked.connect(self.show_dialog)
-                        self.abrir_mesaje("Error al Generar el Calculo")
+                        self.abrir_mesaje("! ERROR AL GENERAR EL CALCULO  OK PARA INTERTARLO DE NUEVO¡")
 
 
         def abrir_mesaje(self, mensaje):
-                QMessageBox.about(self, "Error", mensaje)
+                QMessageBox.about(self, "!  ERROR ¡", mensaje)
                 
 class calculo_caballo_de_fuerza():
         def calcular(self, largo, numero_codo):
                 op1 = ((largo)*(numero_codo)*(2))
                 op2 = (op1 / 15)
                 if(largo < .0 or numero_codo < 1):
-                        return "Calculo Fallido"
+                        return "! CALCULO FALLIDO ¡"
                 elif(largo):
                         return str(op2)
 

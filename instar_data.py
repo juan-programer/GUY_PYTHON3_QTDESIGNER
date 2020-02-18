@@ -19,7 +19,7 @@ def crear_conexion(db_file):
  
 def inserta_datos(conn, resultados):
     """
-    Crear un nuevo datos in la tabla resultado
+    Crear un nuevo dato en la tabla resultado
     :param conn:
     :param project:
     :return: project id
@@ -38,7 +38,7 @@ def main():
     conn = crear_conexion(base_de_datos)
     with conn:
         # create a new project
-        nuevo_dato = ('3', '4.555','2020-02-16')
+        nuevo_dato = ('4', '8.44444','2020-02-17')
         datos_id = inserta_datos(conn, nuevo_dato)
 
  

@@ -20,8 +20,7 @@ def crear_tablas(conectar, create_table_sql):
 def principal():
     base_de_datos = r"C:\src\databases\db_Condensadora\Condesadora.db"
     
-
-    crear_tabla_resultados_sql = """  CREATE TABLE IF NOT EXISTS resultados(
+        crear_tabla_resultados_sql = """  CREATE TABLE IF NOT EXISTS resultados(
                             id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
                             resultado_op FLOAT(100) NOT NULL,
                             fecha_op DATE NOT NULL );  """

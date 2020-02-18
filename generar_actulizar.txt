@@ -1,2 +1,10 @@
 C:\Users\JUAN JAIR VILLALOBOS\Desktop\PROGRAMAS_PYTHON_2020\GUY_PYTHON3_QTDESIGNER pyuic5 -x GuyCondesadora.ui -o GuyCondesadora_ui.py
 
+
+git status
+
+
+git add .
+git commit -m "update"
+git push
+

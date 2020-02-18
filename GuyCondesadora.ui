@@ -23,17 +23,17 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>CONDESADORA 1.0</string>
+   <string>CONDESOFT 1.0</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">rgba:(0, 255, 127)</string>
+   <string notr="true">rgba:(0, 170, 255)</string>
   </property>
   <widget class="QLabel" name="label_numero1">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>80</y>
-     <width>261</width>
+     <x>20</x>
+     <y>70</y>
+     <width>271</width>
      <height>31</height>
     </rect>
    </property>
@@ -41,40 +41,43 @@
     <string notr="true">rgba:(255, 255, 127)</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;INGRESE LA LONGITUD DE LA CONDENSADORA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;INGRESE LA LONGITUD DE LA CONDENSADORA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_numero2">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>150</y>
-     <width>321</width>
+     <x>20</x>
+     <y>140</y>
+     <width>331</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;INGRESE LA CANTIDAD DE CODOS DE LA CONDENSADORA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;INGRESA LA CANTIDAD DE CODOS DE LA CONDENSADORA:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_salida">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>240</y>
+     <x>110</x>
+     <y>230</y>
      <width>311</width>
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">rgba:(0, 170, 255)</string>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-weight:600; color:#ffffff;&quot;&gt;LOS CABALLOS DE POTENCIA SON:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:7pt; font-weight:600; color:#000000;&quot;&gt;LOS CABALLOS DE POTENCIA SON:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="text_numerocodos">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>180</y>
+     <x>20</x>
+     <y>170</y>
      <width>301</width>
      <height>31</height>
     </rect>
@@ -83,8 +86,8 @@
   <widget class="QTextEdit" name="text_longitud">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>110</y>
+     <x>20</x>
+     <y>100</y>
      <width>301</width>
      <height>31</height>
     </rect>
@@ -93,8 +96,8 @@
   <widget class="QPushButton" name="boton_calcular">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>230</y>
+     <x>20</x>
+     <y>220</y>
      <width>81</width>
      <height>41</height>
     </rect>
@@ -157,14 +160,14 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>190</x>
-     <y>0</y>
+     <x>200</x>
+     <y>10</y>
      <width>111</width>
      <height>41</height>
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:600; font-style:italic; color:#00aaff; vertical-align:sub;&quot;&gt;CONDESOFT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; font-style:italic; color:#55aaff;&quot;&gt;CONDESOFT&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
  </widget>
