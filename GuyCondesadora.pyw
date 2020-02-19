@@ -66,6 +66,7 @@ class Ventana_principal(QWidget):
                 QMessageBox.about(self, "!  ERROR ¡", mensaje)
 
         def limpiar(self):
+                self.ui.text_nombre.setText("")
                 self.ui.text_longitud.setText("")
                 self.ui.text_numerocodos.setText("")
                 self.ui.label_salida.setText("LOS CABALLOS EN POTENCIA SON: 0")
