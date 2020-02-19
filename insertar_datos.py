@@ -8,16 +8,16 @@ def crear_conexion(db_file):
     :param db_file: database file
     :return: Connection object or None
     """
-    conn = None
+    conectar = None
     try:
-        conn = sqlite3.connect(db_file)
+        conectar = sqlite3.connect(db_file)
     except Error as e:
         print(e)
  
-    return conn
+    return conectar
  
  
-def inserta_datos(conn, resultados):
+def inserta_datos(conectar, resultados):
     """
     Crear un nuevo dato en la tabla resultado
     :param conn:
@@ -26,7 +26,7 @@ def inserta_datos(conn, resultados):
     """
     sql = ''' INSERT INTO resultados(id, resultado_op, fecha_op)
               VALUES(?,?,?) '''
-    cur = conn.cursor()
+    cur = conectar.cursor()
     cur.execute(sql, resultados)
     return cur.lastrowid
  
@@ -35,11 +35,11 @@ def main():
     base_de_datos =  r"C:\src\databases\db_Condensadora\Condesadora.db"
  
     # create a database connection
-    conn = crear_conexion(base_de_datos)
-    with conn:
+    conectar = crear_conexion(base_de_datos)
+    with conectar:
         # create a new project
-        nuevo_dato = ('4', '8.44444','2020-02-17')
-        datos_id = inserta_datos(conn, nuevo_dato)
+        nuevo_dato = ('8', '8.44444','2021-02-19')
+        datos_id = inserta_datos(conectar, nuevo_dato)
 
  
 if __name__ == '__main__':
