@@ -1,5 +1,6 @@
 #programa para calcular los caballos de potencia de una condesadora.
 #cortecia de Svillsoft Companie Diseñado y Desarrollado para Refrivillalobos S.A
+#1m = 100cm , 1m = 10**2 cm , 1cm = 0.01m
 
 import sys
 from GuyCondesadora_ui import *
@@ -73,18 +74,18 @@ class Ventana_principal(QWidget):
 
 class calculo_caballo_de_fuerza():
         def calcular(self, largo, numero_codo):
-                op1 = ((largo)*(numero_codo)*(2))
-                op2 = (op1 / 15)
+                cm = 100
+                op1 = (largo/cm)
+                op2 = (op1 * numero_codo) * 2
+                op3 = (op2 / 15)
                 if(largo < .0 or numero_codo < 1):
                         return "! CALCULO FALLIDO ¡"
                 elif(largo):
-                        return str(op2)
+                        return str(op3)
+                
 
 if __name__ == "__main__":
         aplicacion_condesadora = QApplication(sys.argv)
         app = Ventana_principal()
         app.show()
         sys.exit(aplicacion_condesadora.exec_())
-
-
-

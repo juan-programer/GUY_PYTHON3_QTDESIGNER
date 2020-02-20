@@ -25,7 +25,7 @@ class Ui_Form(object):
         self.label_numero2.setGeometry(QtCore.QRect(20, 190, 331, 31))
         self.label_numero2.setObjectName("label_numero2")
         self.label_salida = QtWidgets.QLabel(Form)
-        self.label_salida.setGeometry(QtCore.QRect(20, 340, 311, 21))
+        self.label_salida.setGeometry(QtCore.QRect(10, 370, 511, 21))
         self.label_salida.setStyleSheet("rgba:(0, 170, 255)")
         self.label_salida.setObjectName("label_salida")
         self.text_numerocodos = QtWidgets.QTextEdit(Form)
