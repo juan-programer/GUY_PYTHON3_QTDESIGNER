@@ -41,7 +41,7 @@
     <string notr="true">rgba:(255, 255, 127)</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;INGRESE LA LONGITUD DE LA CONDENSADORA  &lt;/span&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;EN &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#00aaff;&quot;&gt;(cm)&lt;/span&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;/&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;INGRESE LA LONGITUD DE LA CONDENSADORA EN &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#00aaff;&quot;&gt;(cm)&lt;/span&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_numero2">

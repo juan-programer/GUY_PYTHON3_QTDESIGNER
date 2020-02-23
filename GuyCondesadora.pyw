@@ -82,10 +82,12 @@ class calculo_caballo_de_fuerza():
                         return "! CALCULO FALLIDO ¡"
                 elif(largo):
                         return str(op3)
-                
 
 if __name__ == "__main__":
         aplicacion_condesadora = QApplication(sys.argv)
         app = Ventana_principal()
         app.show()
         sys.exit(aplicacion_condesadora.exec_())
+
+
+

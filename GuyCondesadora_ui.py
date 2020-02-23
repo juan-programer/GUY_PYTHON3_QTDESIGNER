@@ -74,7 +74,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "CONDESOFT 1.0"))
-        self.label_numero1.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:7pt; font-weight:600;\">INGRESE LA LONGITUD DE LA CONDENSADORA  </span><span style=\" font-size:7pt; font-weight:600;\">EN </span><span style=\" font-size:10pt; font-weight:600; color:#00aaff;\">(cm)</span><span style=\" font-size:7pt; font-weight:600;\"/><span style=\" font-weight:600;\">:</span></p></body></html>"))
+        self.label_numero1.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:7pt; font-weight:600;\">INGRESE LA LONGITUD DE LA CONDENSADORA EN </span><span style=\" font-size:10pt; font-weight:600; color:#00aaff;\">(cm)</span><span style=\" font-weight:600;\">:</span></p></body></html>"))
         self.label_numero2.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:7pt; font-weight:600;\">INGRESA LA CANTIDAD DE CODOS DE LA CONDENSADORA:</span></p></body></html>"))
         self.label_salida.setText(_translate("Form", "<html><head/><body><p align=\"justify\"><span style=\" font-size:7pt; font-weight:600; color:#000000;\">LOS CABALLOS DE POTENCIA SON:</span></p></body></html>"))
         self.text_longitud.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
