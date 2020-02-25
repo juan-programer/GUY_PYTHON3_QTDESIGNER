@@ -20,14 +20,16 @@ def crear_tablas(conectar, create_table_sql):
 def principal():
     base_de_datos = r"C:\src\databases\db_Condensadora\Condesadora.db"
     
-        crear_tabla_resultados_sql = """  CREATE TABLE IF NOT EXISTS resultados(
-                            id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-                            resultado_op FLOAT(100) NOT NULL,
-                            fecha_op DATE NOT NULL );  """
+    crear_tabla_Condensadora_sql = """ CREATE TABLE "condensadora" (
+                "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+                                                "nombre"	TEXT,
+                                                "longitud"	REAL,
+                                    "cantidad"	INTEGER DEFAULT 0,
+                                    "resultado"	REAL DEFAULT 0.0); """
 
     conectar = crear_conexion(base_de_datos)
     if conectar is not None:
-        crear_tablas(conectar,crear_tabla_resultados_sql)
+        crear_tablas(conectar,crear_tabla_Condensadora_sql)
     else:
         print("Error! No se puede crear la conexión de la base de datos.")
 
