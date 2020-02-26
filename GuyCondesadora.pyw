@@ -88,6 +88,4 @@ if __name__ == "__main__":
         app = Ventana_principal()
         app.show()
         sys.exit(aplicacion_condesadora.exec_())
-
-
-
+        
