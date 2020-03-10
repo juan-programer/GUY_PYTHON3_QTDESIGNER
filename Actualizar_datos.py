@@ -2,15 +2,15 @@ from conexion import conexion
 
 def atualisar_datos(datos):
     """
-    actualiza resultado_op , fecha_op los datos de la tabla resultados
+    actualiza resultado_op , fecha_op los datos de la tabla condensadora
     :param conn:
     :param task:
     :return: project id
     """ 
-    database =  r"C:\src\databases\db_Condensadora\Condesadora.db"
+    database = r"/home/juan/Documentos/databases/bd_condensadora/Condesadora.db"
     conex = conexion(database)
     con=conex.get_connection()
-    sql = ''' UPDATE resultados
+    sql = ''' UPDATE condensadora
               SET resultado_op = ? , 
                   fecha_op = ?
               WHERE id = ? '''

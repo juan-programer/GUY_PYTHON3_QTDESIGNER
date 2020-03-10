@@ -32,7 +32,7 @@ def inserta_datos(conectar, resultados):
  
  
 def main():
-    base_de_datos =  r"C:\src\databases\db_Condensadora\Condesadora.db"
+    base_de_datos = r"/home/juan/Documentos/databases/bd_condensadora/Condesadora.db"
  
     # create a database connection
     conectar = crear_conexion(base_de_datos)

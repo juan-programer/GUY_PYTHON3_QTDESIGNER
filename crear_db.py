@@ -12,4 +12,4 @@ def crear_conexion(db_file):
         if conectar:
             conectar.close()
 if __name__   ==   '__main__' :
-    crear_conexion(r"C:\src\databases\db_Condensadora\Condesadora.db")
+    crear_conexion(r"/home/juan/Documentos/databases/bd_condensadora/Condesadora.db")

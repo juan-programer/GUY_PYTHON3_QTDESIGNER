@@ -18,7 +18,7 @@ def crear_tablas(conectar, create_table_sql):
         print(e)
 
 def principal():
-    base_de_datos = r"C:\src\databases\db_Condensadora\Condesadora.db"
+    base_de_datos = r"/home/juan/Documentos/databases/bd_condensadora/Condesadora.db"
     
     crear_tabla_Condensadora_sql = """ CREATE TABLE "condensadora" (
                 "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
