@@ -6,37 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>528</height>
+    <width>826</width>
+    <height>583</height>
    </rect>
   </property>
-  <property name="maximumSize">
-   <size>
-    <width>800</width>
-    <height>800</height>
-   </size>
-  </property>
   <property name="windowTitle">
-   <string>actulizar datos</string>
+   <string>Form</string>
   </property>
-  <widget class="QCheckBox" name="checkBox">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>300</y>
-     <width>91</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>confirmar</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="btn_cancelar">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>330</y>
+     <x>700</x>
+     <y>370</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -45,11 +26,57 @@
     <string>Cancelar</string>
    </property>
   </widget>
+  <widget class="QTextEdit" name="text_update_nom_conde">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>180</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="text_update_long_conde">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>240</y>
+     <width>231</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>340</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>confirmar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_nom_condesadora">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>160</y>
+     <width>191</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nonbre de la Condensadora:</string>
+   </property>
+  </widget>
   <widget class="QLabel" name="label_longitud">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>180</y>
+     <x>560</x>
+     <y>220</y>
      <width>191</width>
      <height>16</height>
     </rect>
@@ -58,34 +85,11 @@
     <string>Longitud  de la Condensadora:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_codos">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>240</y>
-     <width>191</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Codos  de la Condensadora:</string>
-   </property>
-  </widget>
-  <widget class="QTextEdit" name="text_update_nom_conde">
-   <property name="geometry">
-    <rect>
-     <x>30</x>
-     <y>140</y>
-     <width>231</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QTextEdit" name="text_update_cod">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>260</y>
+     <x>560</x>
+     <y>300</y>
      <width>231</width>
      <height>31</height>
     </rect>
@@ -94,8 +98,8 @@
   <widget class="QPushButton" name="btn_update">
    <property name="geometry">
     <rect>
-     <x>70</x>
-     <y>330</y>
+     <x>600</x>
+     <y>370</y>
      <width>91</width>
      <height>31</height>
     </rect>
@@ -118,57 +122,30 @@
     <string>Actualizar</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_nom_condesadora">
+  <widget class="QLabel" name="label_codos">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>120</y>
+     <x>560</x>
+     <y>280</y>
      <width>191</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Nonbre de la Condensadora:</string>
+    <string>Codos  de la Condensadora:</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="text_update_long_conde">
+  <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>200</y>
-     <width>231</width>
-     <height>31</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QTableView" name="tabla_datos_upadates">
-   <property name="geometry">
-    <rect>
-     <x>290</x>
-     <y>20</y>
-     <width>491</width>
-     <height>481</height>
+     <x>10</x>
+     <y>30</y>
+     <width>511</width>
+     <height>531</height>
     </rect>
    </property>
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>btn_cancelar</sender>
-   <signal>clicked()</signal>
-   <receiver>Form</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>218</x>
-     <y>316</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>170</x>
-     <y>281</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

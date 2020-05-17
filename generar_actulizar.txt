@@ -1,5 +1,11 @@
 en la ruta del proyecto : pyuic5 -x GuyCondesadora.ui -o GuyCondesadora_ui.py
 
+antes devo crear una  source.qrc y crear un nuevo prefix y asignarle las imagenes o imagne que decee
+
+para crear un source_rc.py : pyrcc5 source.qrc -o source_rc.py
+
+
+
 
 git status
 
